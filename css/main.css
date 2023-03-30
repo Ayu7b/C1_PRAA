@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+html{
+	widows: 70%;
+	background-color: lightgray;
+	font-family: Arial;
+}
+h1{
+	text-align: center;
+	background-color: #f8aecd ;
+	color: #03357c ;
+}
+.borderLine{
+	border: 10px black solid;
+	margin-top: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+/*	padding: 90px;
+*/	text-align: right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: lightblue;
+
+}
+.borderLine img{
+	width: 15%;
+}
+.row img{
+	width: 80%;
+}
+.vakken, .versnelling {
+	background-color: #f8aecd;
+}
+h2.vakken, h2.versnelling{
+	color: #03357c;
+}
+.Indeling-blokken{
+	background-color: #03357c;
+}
+h2.Indeling-blokken{
+	color: #f8aecd;
+}
+.textStudent{
+/*	margin: 100px;
+*/	width: 400px;
+}
+.borderLine p{
+	text-align: left;
+/*	margin-top: 10px;
+*/	width: 400px;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.row article{
+	max-width: 400px;
+	width: 100%;
+  	margin: 0 auto;
+  	padding-left: 0px;
+  	padding-bottom: 200px;
+}
+.docenten{
+		display: flex;
+	flex-direction: row;
+	margin-right: 100px;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.docenten img{
+	max-width: 400px;
+	width: 20%;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.h2-docent{
+	display: flex;
+	justify-content: center;
+	margin-top: -70px;
+	margin-bottom: 70px;
+	background-color: #03357c;
+	color: #f8aecd;
+	align-items: center;
+}
+.docenten p{
+	display: flex;
+	justify-content: center;
+
+}
+
+@media (max-width:800px){
+    .row {
+        background-color: yellow;
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 50px;
+    }
+}
